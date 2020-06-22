@@ -1,0 +1,78 @@
+body{
+	background : url("image.jpg");
+	background-size : cover;
+	font-family : popins;
+}
+
+
+.studentRegister{
+	left : 450px;
+	top : 150px;
+	background-color: rgba(0,0,0,0.5);
+	color : #fff;
+	box-sizing : border-box;
+	border-color : black;
+	width: 300px;
+	height: 350px;;
+	position : absolute;
+	padding : 30px 30px;
+	box-shadow : 0 0 10px #000;
+	transition : 0.3s;
+	border-radius : 5px;
+	padding : 40px;
+	
+}
+
+.avatar{
+	width : 80px;
+	height : 80px;
+	position : absolute;
+	top : -70px;
+	left : calc(50% - 50px)
+	
+}
+
+.studentRegister h3{
+	margin : 0;
+	padding : 0 0 20px;
+	text-align : center;
+	font-size : 22px;
+}
+
+.studentRegister p{
+	margin : 0;
+	padding : 0;
+	font-weight : bold;
+	font-size : 16px
+}
+
+.studentRegister input{
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+.studentRegister input[type="text"], input[type="password"]{
+	border : none;
+	border-bottom : 1px solid #fff;
+	background: transparent;
+	outline : none;
+	height : 40px;
+	color : #fff;
+	font-size : 12px;
+}
+
+.studentRegister input[type="submit"]{
+	border : none;
+	outline : none;
+	height : 40px;
+	background : #3581e3;
+	color : #fff;
+	font-size : 18px;
+	border-radius : 20px;
+}
+
+.studentRegister input[type="submit"]:hover{
+	cursor : pointer;
+	background : #ffc107;
+	color : #000;
+}

@@ -1,0 +1,80 @@
+body{
+	background : url("image.jpg");
+	background-size : cover;
+	font-family : popins;
+}
+
+.session{
+	left : 430px;
+	top : 60px;
+	background-color: rgba(0,0,0,0.5);
+	color : #fff;
+	box-sizing : border-box;
+	border-color : black;
+	width: 300px;
+	height: 490px;;
+	position : absolute;
+	padding : 30px 30px;
+	box-shadow : 0 0 10px #000;
+	transition : 0.3s;
+	border-radius : 5px;
+	padding : 40px;
+}
+
+.session h3{
+	margin : 0;
+	padding : 0 0 20px;
+	text-align : center;
+	font-size : 22px;
+}
+
+
+.session select{
+	width : 110%;
+	height : 21px;
+	font-family : popins;
+	font-size : 17px;
+	background : #525865;
+	color : #fff;
+	border : none;
+	box-shadow : 0 5px 25px rgba(0,0,0,0.5);
+	placeholder : none;
+}
+
+.session select::-ms-expand {
+     display: none;
+}
+.session p{
+	font-weight : bold;
+	font-size : 16px
+}
+
+
+.session input[type="text"]{
+	width : 100%;
+	border : none;
+	border-bottom : 1px solid #fff;
+	background: transparent;
+	outline : none;
+	color : #fff;
+	font-size : 12px;
+}
+
+.session .createbtn{
+	width : 100%;
+	border : none;
+	outline : none;
+	height : 40px;
+	background : #3581e3;
+	color : #fff;
+	font-size : 18px;
+	border-radius : 20px;
+}
+.session .logoutbtn{
+	width : 60px;
+	float : right;
+	height : 30px;
+	border-radius : 6px;
+	border : none;
+	background : #00ff40;
+}

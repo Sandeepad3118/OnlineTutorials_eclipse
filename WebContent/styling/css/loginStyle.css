@@ -1,0 +1,192 @@
+body{
+	background : url("image.jpg");
+	background-size : cover;
+	font-family : popins;
+}
+
+.header h1{
+	text-align : center;
+	padding : 0;
+	font-family : cursive;
+	box-sizing : border-box;
+	background : transparent;
+	position : relative;
+}
+
+.studentLogin{
+	left : 130px;
+	top : 110px;
+	background-color: rgba(0,0,0,0.5);
+	color : #fff;
+	box-sizing : border-box;
+	border-color : black;
+	width: 300px;
+	height: 420px;;
+	position : absolute;
+	padding : 30px 30px;
+	box-shadow : 0 0 10px #000;
+	transition : 0.3s;
+	border-radius : 5px;
+	padding : 40px;
+	
+	
+}
+
+.avatar1{
+	width : 80px;
+	height : 80px;
+	position : absolute;
+	top : -50px;
+	left : calc(50% - 50px)
+	
+}
+
+
+
+
+.studentLogin h3{
+	margin : 0;
+	padding : 0 0 20px;
+	text-align : center;
+	font-size : 22px;
+}
+
+.studentLogin p{
+	margin : 0;
+	padding : 0;
+	font-weight : bold;
+	font-size : 16px
+}
+
+.studentLogin input{
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+.studentLogin input[type="text"], input[type="password"]{
+	border : none;
+	border-bottom : 1px solid #fff;
+	background: transparent;
+	outline : none;
+	height : 40px;
+	color : #fff;
+	font-size : 12px;
+}
+
+.studentLogin input[type="submit"]{
+	border : none;
+	outline : none;
+	height : 40px;
+	background : #3581e3;
+	color : #fff;
+	font-size : 18px;
+	border-radius : 20px;
+}
+
+.studentLogin input[type="submit"]:hover{
+	cursor : pointer;
+	background : #ffc107;
+	color : #000;
+}
+
+.studentLogin a{
+	text-decoration : none;
+	font-size : 12px;
+	line-height : 20px;
+	color : darkgrey;
+}
+
+
+
+.teacherLogin{
+	right : 130px;
+	top : 150px;
+	background-color: rgba(0,0,0,0.5);
+	color : #fff;
+	box-sizing : border-box;
+	border-color : black;
+	width: 300px;
+	height: 350px;;
+	position : absolute;
+	padding : 30px 30px;
+	box-shadow : 0 0 10px #000;;
+	transition : 0.3s;
+	border-radius : 5px;
+	padding : 40px;
+}
+
+.avatar2{
+	width : 80px;
+	height : 80px;
+	position : absolute;
+	top : -50px;
+	right : calc(50% - 50px)
+	
+}
+
+
+
+
+.teacherLogin h3{
+	margin : 0;
+	padding : 0 0 20px;
+	text-align : center;
+	font-size : 22px;
+}
+
+.teacherLogin p{
+	margin : 0;
+	padding : 0;
+	font-weight : bold;
+	font-size : 16px
+}
+
+.teacherLogin input{
+	width : 100%;
+	margin-bottom : 20px;
+}
+
+.teacherLogin input[type="text"], input[type="password"]{
+	border : none;
+	border-bottom : 1px solid #fff;
+	background: transparent;
+	outline : none;
+	height : 40px;
+	color : #fff;
+	font-size : 12px;
+}
+
+.teacherLogin input[type="submit"]{
+	border : none;
+	outline : none;
+	height : 40px;
+	background : #3581e3;
+	color : #fff;
+	font-size : 18px;
+	border-radius : 20px;
+}
+
+.teacherLogin input[type="submit"]:hover{
+	cursor : pointer;
+	background : #ffc107;
+	color : #000;
+}
+
+.teacherLogin a{
+	text-decoration : none;
+	font-size : 12px;
+	line-height : 20px;
+	color : darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
